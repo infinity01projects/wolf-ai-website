@@ -7,8 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (burger) {
     burger.addEventListener("click", () => {
-      mobileMenu.classList.add("active")
-      body.style.overflow = "hidden"
+      mobileMenu.classList.toggle("active")
+      if (mobileMenu.classList.contains("active")) {
+        body.style.overflow = "hidden"
+      } else {
+        body.style.overflow = "auto"
+      }
     })
   }
 
@@ -23,7 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Close mobile menu when clicking outside
   document.addEventListener("click", (event) => {
-    if (mobileMenu.classList.contains("active") && !mobileMenu.contains(event.target) && event.target !== burger) {
+    if (
+      mobileMenu.classList.contains("active") &&
+      !mobileMenu.contains(event.target) &&
+      event.target !== burger &&
+      !burger.contains(event.target)
+    ) {
       mobileMenu.classList.remove("active")
       body.style.overflow = "auto"
     }

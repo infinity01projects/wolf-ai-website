@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Wolf AI</title>
+    <meta name="description" content="Contactez l'équipe Wolf AI pour toute question ou suggestion concernant notre application.">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="/wolf-logo.png" alt="Wolf AI Logo">
+                    <span>Wolf AI</span>
+                </a>
+            </div>
+            <div class="burger" id="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/about/">À propos</a></li>
+                <li><a href="/privacy-policy/">Politique de confidentialité</a></li>
+                <li><a href="/terms/">Conditions d'utilisation</a></li>
+                <li><a href="/contact/" class="active">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <section class="contact-page">
+            <h1>Contactez-nous</h1>
+            <p class="contact-intro">Vous avez des questions, des suggestions ou besoin d'assistance ? N'hésitez pas à nous contacter. Notre équipe est là pour vous aider.</p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h2>Informations de contact</h2>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@wolfai.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+33 1 23 45 67 89</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Avenue de l'Innovation, 75000 Paris, France</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <h2>Heures d'ouverture</h2>
+                        <div class="hours">
+                            <div class="day">
+                                <span>Lundi - Vendredi</span>
+                                <span>9h00 - 18h00</span>
+                            </div>
+                            <div class="day">
+                                <span>Samedi</span>
+                                <span>10h00 - 15h00</span>
+                            </div>
+                            <div class="day">
+                                <span>Dimanche</span>
+                                <span>Fermé</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <h2>Envoyez-nous un message</h2>
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary full">Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Questions fréquemment posées</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>Comment fonctionne Wolf AI ?</h3>
+                    <p>Wolf AI utilise des technologies avancées d'intelligence artificielle pour comprendre vos questions et y répondre de manière naturelle. Notre assistant conversationnel apprend de chaque interaction pour améliorer constamment ses réponses.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>L'application est-elle gratuite ?</h3>
+                    <p>Oui, l'application de base est gratuite. Nous proposons également des fonctionnalités premium via un abonnement pour les utilisateurs qui souhaitent une expérience plus avancée.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Mes conversations sont-elles privées ?</h3>
+                    <p>Nous accordons une grande importance à votre vie privée. Toutes vos conversations sont cryptées et nous ne les partageons pas avec des tiers. Pour plus d'informations, consultez notre politique de confidentialité.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Comment puis-je signaler un problème ?</h3>
+                    <p>Si vous rencontrez un problème avec l'application, vous pouvez nous contacter via le formulaire ci-dessus ou directement à l'adresse support@wolfai.com. Notre équipe vous répondra dans les plus brefs délais.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="/">
+                        <img src="/wolf-logo.png" alt="Wolf AI Logo">
+                        <span>Wolf AI</span>
+                    </a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="/about/">À propos</a>
+                    <a href="/privacy-policy/">Politique de confidentialité</a>
+                    <a href="/terms/">Conditions d'utilisation</a>
+                    <a href="/contact/" class="active">Contact</a>
+                </div>
+                <p class="copyright">&copy; <span id="current-year"></span> Wolf AI. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
