@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
 
           <h2>Contact</h2>
           <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :</p>
-          <p>assistancewolfia@gmail.com</p>
+          <p>assistancewolfia@gmmail.com</p>
         </div>
       </div>
     </main>
