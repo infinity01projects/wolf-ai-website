@@ -64,7 +64,7 @@ export default function PrivacyPolicy() {
           <p>
             Nous prenons des mesures raisonnables pour protéger vos informations contre l'accès, l'utilisation ou la
             divulgation non autorisés. Cependant, aucune méthode de transmission sur Internet ou de stockage
-            électronique n'est totalement sécurisée.
+            électronique n'est totalement sécurisée. blabblablablabla.
           </p>
 
           <h2>Vos droits</h2>
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
 
           <h2>Contact</h2>
           <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :</p>
-          <p>assistancewolfia@gmmail.com</p>
+          <p>assistancewolfia@gmail.com</p>
         </div>
       </div>
     </main>
