@@ -64,7 +64,7 @@ export default function PrivacyPolicy() {
           <p>
             Nous prenons des mesures raisonnables pour protéger vos informations contre l'accès, l'utilisation ou la
             divulgation non autorisés. Cependant, aucune méthode de transmission sur Internet ou de stockage
-            électronique n'est totalement sécurisée. blabblablablabla.
+            électronique n'est totalement sécurisée.
           </p>
 
           <h2>Vos droits</h2>
