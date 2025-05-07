@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-purple-900 to-gray-900 text-white py-20 md:py-32">
         <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Wolf AI – Conversez partout</h1>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Wolf IA – Conversez partout</h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl">
               Votre assistant conversationnel intelligent, toujours prêt à discuter, répondre à vos questions ou vous
               accompagner au quotidien.
@@ -30,7 +30,7 @@ export default function Home() {
             <div className="relative w-64 h-[500px] bg-black rounded-3xl overflow-hidden border-4 border-gray-800 shadow-2xl">
               <div className="absolute top-0 left-0 right-0 h-6 bg-black rounded-t-lg"></div>
               <div className="h-full w-full bg-gradient-to-b from-purple-800/20 to-gray-900/20 backdrop-blur-sm p-4 pt-8 flex flex-col items-center">
-                <Image src="/wolf-logo.png" alt="Wolf AI Logo" width={120} height={120} className="mb-6" />
+                <Image src="/wolf-logo.png" alt="Wolf IA Logo" width={120} height={120} className="mb-6" />
                 <div className="bg-gray-800/80 rounded-xl p-4 w-full mb-4">
                   <p className="text-sm text-gray-200">Bonjour, comment puis-je vous aider aujourd'hui?</p>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Conversations Naturelles</h3>
               <p className="text-gray-600">
-                Discutez de manière fluide et naturelle avec Wolf AI, comme si vous parliez à un ami.
+                Discutez de manière fluide et naturelle avec Wolf IA, comme si vous parliez à un ami.
               </p>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
@@ -70,7 +70,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Disponible Partout</h3>
               <p className="text-gray-600">
-                Que vous soyez en déplacement, à la maison ou au travail, Wolf AI est toujours à votre écoute.
+                Que vous soyez en déplacement, à la maison ou au travail, Wolf IA est toujours à votre écoute.
               </p>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
@@ -91,14 +91,14 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <Image src="/wolf-logo.png" alt="Wolf AI Logo" width={300} height={300} className="mx-auto" />
+              <Image src="/wolf-logo.png" alt="Wolf IA Logo" width={300} height={300} className="mx-auto" />
             </div>
             <div className="md:w-1/2 space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold">À Propos de Wolf AI</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">À Propos de Wolf IA</h2>
               <p className="text-lg text-gray-600">
-                Wolf AI - Conversez partout est votre assistant conversationnel intelligent, toujours prêt à discuter,
+                Wolf IA - Conversez partout est votre assistant conversationnel intelligent, toujours prêt à discuter,
                 répondre à vos questions ou vous accompagner au quotidien. Que vous soyez en déplacement, à la maison ou
-                au travail, l'intelligence artificielle Wolf AI est à votre écoute.
+                au travail, l'intelligence artificielle Wolf IA est à votre écoute.
               </p>
               <p className="text-lg text-gray-600">
                 Notre mission est de rendre l'intelligence artificielle accessible à tous, en offrant une expérience de
@@ -120,7 +120,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 bg-purple-900 text-white">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Prêt à converser avec Wolf AI?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Prêt à converser avec Wolf IA?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Téléchargez l'application dès maintenant et découvrez un assistant conversationnel intelligent qui vous
             accompagne partout.

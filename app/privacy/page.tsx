@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
 
           <h2>Introduction</h2>
           <p>
-            Bienvenue dans la politique de confidentialité de Wolf AI – Conversez partout. Cette politique explique
+            Bienvenue dans la politique de confidentialité de Wolf IA – Conversez partout. Cette politique explique
             comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre
             application mobile.
           </p>
@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
             </li>
             <li>
               <strong>Données d'utilisation</strong> : Nous recueillons des informations sur la façon dont vous
-              interagissez avec notre application, y compris les conversations avec l'assistant Wolf AI.
+              interagissez avec notre application, y compris les conversations avec l'assistant Wolf IA.
             </li>
             <li>
               <strong>Informations sur l'appareil</strong> : Nous collectons des informations sur votre appareil mobile,

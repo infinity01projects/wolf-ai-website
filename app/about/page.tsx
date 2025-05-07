@@ -12,7 +12,7 @@ export default function About() {
         </Link>
 
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">À Propos de Wolf AI</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">À Propos de Wolf IA</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Découvrez l'histoire et la mission derrière votre assistant conversationnel intelligent préféré.
           </p>
@@ -23,7 +23,7 @@ export default function About() {
           <div className="md:w-1/2">
             <Image
               src="/wolf-logo.png"
-              alt="Wolf AI Logo"
+              alt="Wolf IA Logo"
               width={300}
               height={300}
               className="mx-auto drop-shadow-xl"
@@ -32,11 +32,11 @@ export default function About() {
           <div className="md:w-1/2 space-y-6">
             <h2 className="text-3xl font-bold">Notre Histoire</h2>
             <p className="text-lg text-gray-600">
-              Wolf AI est né d'une vision simple : rendre l'intelligence artificielle accessible à tous, partout et à
+              Wolf IA est né d'une vision simple : rendre l'intelligence artificielle accessible à tous, partout et à
               tout moment. Nous croyons que la technologie doit s'adapter à l'humain, et non l'inverse.
             </p>
             <p className="text-lg text-gray-600">
-              Développé par une équipe passionnée d'experts en IA et en expérience utilisateur, Wolf AI combine les
+              Développé par une équipe passionnée d'experts en IA et en expérience utilisateur, Wolf IA combine les
               dernières avancées en matière d'intelligence artificielle avec une interface intuitive et conviviale.
             </p>
             <p className="text-lg text-gray-600">
@@ -52,7 +52,7 @@ export default function About() {
             <div className="md:w-1/2 space-y-6">
               <h2 className="text-3xl font-bold">Notre Mission</h2>
               <p className="text-lg text-gray-600">
-                Chez Wolf AI, notre mission est de créer un assistant conversationnel qui comprend véritablement les
+                Chez Wolf IA, notre mission est de créer un assistant conversationnel qui comprend véritablement les
                 besoins humains et y répond de manière naturelle et intuitive.
               </p>
               <p className="text-lg text-gray-600">
@@ -91,7 +91,7 @@ export default function About() {
                     <span className="text-purple-600 font-bold">WA</span>
                   </div>
                   <div>
-                    <p className="font-semibold">L'équipe Wolf AI</p>
+                    <p className="font-semibold">L'équipe Wolf IA</p>
                     <p className="text-sm text-gray-500">Fondateurs</p>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-4">Rejoignez notre communauté</h3>
                 <p className="mb-6">
                   Suivez-nous sur les réseaux sociaux pour rester informé des dernières mises à jour et fonctionnalités
-                  de Wolf AI.
+                  de Wolf IA.
                 </p>
                 <div className="flex space-x-4">
                   <a href="#" className="bg-white/20 p-3 rounded-full hover:bg-white/30 transition-colors">
@@ -305,7 +305,7 @@ export default function About() {
 
         {/* CTA */}
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-6">Prêt à découvrir Wolf AI?</h2>
+          <h2 className="text-2xl font-bold mb-6">Prêt à découvrir Wolf IA?</h2>
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
             <Download className="mr-2 h-5 w-5" /> Télécharger l'application
           </Button>

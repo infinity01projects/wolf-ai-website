@@ -11,7 +11,7 @@ export default function Features() {
         </Link>
 
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Fonctionnalités de Wolf AI</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Fonctionnalités de Wolf IA</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Découvrez toutes les capacités de votre assistant conversationnel intelligent, conçu pour vous accompagner
             dans votre quotidien.
@@ -24,7 +24,7 @@ export default function Features() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Intelligence Artificielle Avancée</h2>
               <p className="text-lg mb-6">
-                Wolf AI utilise les dernières avancées en matière d'intelligence artificielle pour vous offrir des
+                Wolf IA utilise les dernières avancées en matière d'intelligence artificielle pour vous offrir des
                 conversations naturelles et pertinentes. Notre modèle de langage a été entraîné sur des milliards de
                 textes pour comprendre vos intentions et vous répondre avec précision.
               </p>
@@ -51,7 +51,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Conversations Naturelles</h3>
             <p className="text-gray-600 mb-4">
-              Discutez de manière fluide et naturelle avec Wolf AI, comme si vous parliez à un ami. Notre IA comprend le
+              Discutez de manière fluide et naturelle avec Wolf IA, comme si vous parliez à un ami. Notre IA comprend le
               contexte de vos conversations et maintient le fil de la discussion.
             </p>
             <ul className="text-gray-600 space-y-2">
@@ -73,7 +73,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Disponible Partout</h3>
             <p className="text-gray-600 mb-4">
-              Que vous soyez en déplacement, à la maison ou au travail, Wolf AI est toujours à votre écoute. Notre
+              Que vous soyez en déplacement, à la maison ou au travail, Wolf IA est toujours à votre écoute. Notre
               application est optimisée pour fonctionner sur tous les appareils Android.
             </p>
             <ul className="text-gray-600 space-y-2">
@@ -117,7 +117,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Réponses Instantanées</h3>
             <p className="text-gray-600 mb-4">
-              Wolf AI vous répond en temps réel, sans délai d'attente. Notre technologie optimisée permet des
+              Wolf IA vous répond en temps réel, sans délai d'attente. Notre technologie optimisée permet des
               interactions rapides et fluides, même avec des connexions limitées.
             </p>
             <ul className="text-gray-600 space-y-2">
@@ -139,7 +139,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Multilingue</h3>
             <p className="text-gray-600 mb-4">
-              Communiquez avec Wolf AI dans plusieurs langues. Notre assistant comprend et répond dans votre langue
+              Communiquez avec Wolf IA dans plusieurs langues. Notre assistant comprend et répond dans votre langue
               préférée, facilitant les échanges quelle que soit votre origine.
             </p>
             <ul className="text-gray-600 space-y-2">
@@ -161,7 +161,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Personnalisation</h3>
             <p className="text-gray-600 mb-4">
-              Wolf AI s'adapte à vos préférences et à votre style de communication. Plus vous l'utilisez, plus il
+              Wolf IA s'adapte à vos préférences et à votre style de communication. Plus vous l'utilisez, plus il
               comprend vos besoins et personnalise ses réponses.
             </p>
             <ul className="text-gray-600 space-y-2">
@@ -187,7 +187,7 @@ export default function Features() {
                 <Headphones className="h-8 w-8 text-purple-600" />
               </div>
               <h3 className="font-semibold mb-2">Commandes Vocales</h3>
-              <p className="text-sm text-gray-600">Interagissez avec Wolf AI par la voix</p>
+              <p className="text-sm text-gray-600">Interagissez avec Wolf IA par la voix</p>
             </div>
             <div className="text-center">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -217,7 +217,7 @@ export default function Features() {
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-6">Prêt à découvrir toutes ces fonctionnalités?</h2>
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
-            Télécharger Wolf AI
+            Télécharger Wolf IA
           </Button>
         </div>
       </div>

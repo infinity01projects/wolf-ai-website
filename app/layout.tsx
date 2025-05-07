@@ -9,9 +9,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Wolf AI – Conversez partout",
+  title: "Wolf IA – Conversez partout",
   description:
-    "Wolf AI - Conversez partout est votre assistant conversationnel intelligent, toujours prêt à discuter, répondre à vos questions ou vous accompagner au quotidien.",
+    "Wolf IA - Conversez partout est votre assistant conversationnel intelligent, toujours prêt à discuter, répondre à vos questions ou vous accompagner au quotidien.",
   generator: 'v0.dev'
 }
 
@@ -28,8 +28,8 @@ export default function RootLayout({
             <div className="container mx-auto px-4 md:px-6 py-4">
               <div className="flex justify-between items-center">
                 <Link href="/" className="flex items-center gap-2">
-                  <Image src="/wolf-logo.png" alt="Wolf AI Logo" width={40} height={40} />
-                  <span className="font-bold text-xl">Wolf AI</span>
+                  <Image src="/wolf-logo.png" alt="Wolf IA Logo" width={40} height={40} />
+                  <span className="font-bold text-xl">Wolf IA</span>
                 </Link>
                 <nav className="hidden md:flex gap-6">
                   <Link href="/" className="text-gray-600 hover:text-purple-600">
@@ -62,8 +62,8 @@ export default function RootLayout({
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                   <div className="flex items-center gap-2 mb-4">
-                    <Image src="/wolf-logo.png" alt="Wolf AI Logo" width={40} height={40} />
-                    <span className="font-bold text-xl">Wolf AI</span>
+                    <Image src="/wolf-logo.png" alt="Wolf IA Logo" width={40} height={40} />
+                    <span className="font-bold text-xl">Wolf IA</span>
                   </div>
                   <p className="text-gray-400">
                     Votre assistant conversationnel intelligent, toujours prêt à discuter.
@@ -101,7 +101,7 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>© {new Date().getFullYear()} Wolf AI – Conversez partout. Tous droits réservés.</p>
+                <p>© {new Date().getFullYear()} Wolf IA – Conversez partout. Tous droits réservés.</p>
               </div>
             </div>
           </footer>
