@@ -25,16 +25,16 @@ export default function PrivacyPolicy() {
           <p>Nous collectons les types d'informations suivants :</p>
           <ul>
             <li>
-              <strong>Informations personnelles</strong> : Lorsque vous créez un compte, nous pouvons collecter votre
-              nom, adresse e-mail et autres informations de profil.
+              <strong>Informations personnelles</strong> : Aucune information personnelle n'est collectée, 
+              l'application mobile est utilisable directement sans créer de compte.
             </li>
             <li>
               <strong>Données d'utilisation</strong> : Nous recueillons des informations sur la façon dont vous
               interagissez avec notre application, y compris les conversations avec l'assistant Wolf IA.
             </li>
             <li>
-              <strong>Informations sur l'appareil</strong> : Nous collectons des informations sur votre appareil mobile,
-              y compris le modèle, le système d'exploitation et les identifiants uniques.
+              <strong>Informations sur l'appareil</strong> : Nous collectons pas les informations sur votre appareil mobile,
+              tel que le modèle, le système d'exploitation.
             </li>
           </ul>
 
@@ -54,10 +54,9 @@ export default function PrivacyPolicy() {
             circonstances suivantes :
           </p>
           <ul>
-            <li>Avec des fournisseurs de services qui nous aident à exploiter notre application</li>
+    
             <li>Pour se conformer aux obligations légales</li>
             <li>Pour protéger nos droits et ceux des autres</li>
-            <li>Dans le cadre d'une fusion, vente ou transfert d'actifs</li>
           </ul>
 
           <h2>Sécurité des données</h2>
