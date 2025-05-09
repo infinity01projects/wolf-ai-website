@@ -29,8 +29,7 @@ export default function PrivacyPolicy() {
               l'application mobile est utilisable directement sans créer de compte.
             </li>
             <li>
-              <strong>Données d'utilisation</strong> : Nous recueillons des informations sur la façon dont vous
-              interagissez avec notre application, y compris les conversations avec l'assistant Wolf IA.
+              <strong>Données d'utilisation</strong> : Nous envoyons seulement les messages envoyés par l'utilisateur à l'assistant IA.
             </li>
             <li>
               <strong>Informations sur l'appareil</strong> : Nous collectons pas les informations sur votre appareil mobile,
