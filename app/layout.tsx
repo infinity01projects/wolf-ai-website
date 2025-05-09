@@ -97,7 +97,7 @@ export default function RootLayout({
                 <div>
                   <h3 className="font-semibold text-lg mb-4">Contact</h3>
                   <p className="text-gray-400">Pour toute question ou assistance, n'hésitez pas à nous contacter.</p>
-                  <p className="text-gray-400 mt-2">assistancewolfia@gmail.com</p>
+                  <p className="text-gray-400 mt-2">wolf.ia.app@gmail.com</p>
                 </div>
               </div>
               <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
